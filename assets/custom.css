@@ -1,0 +1,315 @@
+/* John H Custom Styles */
+
+
+/* Header Nav */
+.list-menu .list-menu__item{
+  font-weight:700;
+  font-size:14px;
+  letter-spacing:2px; 
+  line-height:16.41px;
+  color:#4A4A4A;
+  padding-left:6rem;
+}
+
+.icon-wrapper{
+  position:relative;
+  top:1.50rem;
+}
+
+ .icon-search{
+    position: relative;
+    left: 15rem;
+    top: -3.25rem;
+}
+
+.header--middle-left .header__inline-menu{
+  position:relative;
+  top:8px;
+}
+
+.form-control{
+  width:193px;
+  height:35px;
+  border-radius:20px;
+  border: 1px solid #C4C4C4;    
+  position:relative;
+  left:-2.00rem;
+
+}
+
+input.form-control::placeholder{
+  font-size:13px;
+  font-weight:500;
+  color: #A3A3A3;
+  line-height:13px;
+}
+
+.header__icon--cart .icon{
+  height:26px;
+  width:30px;
+  
+  position:relative;
+  left:1rem;
+
+}
+
+.header__icon--cart{
+  border-left:1px solid #D8D8D8;
+}
+
+.my-account{
+  font-size:14px;
+  font-weight:400;
+  text-align:center;
+  line-height:16px;
+}
+
+.sign-in-or-up{
+  font-size:12px;
+  font-weight:400;
+  color:#4A4A4A;
+  text-decoration-line:underline;
+  text-align:center;
+  line-height:14px;
+  
+}
+
+/* Hero Image Banner */
+.banner__box>*:first-child {
+  color: #141414;
+  font-size:20px;
+  font-weight:500;
+}
+
+
+.banner__heading {
+  color: #141414;
+  font-size:80px;
+  font-weight:700;
+  line-height:93.75px;
+}
+
+.banner__box>*+.banner__buttons .button{
+  background-color: #141414;
+  border-radius:10px;
+  color:#ffff;
+  padding-left:20px;
+}
+
+.banner--content-align-left.banner--desktop-transparent .banner__box, .banner--content-align-right.banner--desktop-transparent .banner__box, .banner--medium.banner--desktop-transparent .banner__box{
+  text-align:center;
+  
+}
+
+.banner__content{
+  padding:0em !important;
+}
+
+
+.banner__box>*+.banner__buttons{
+  max-width:68rem;
+}
+
+
+/* Vacay This Way */ 
+.banner .banner__media{
+
+
+}
+
+.card-text-wrap{
+  border: 2px solid #ECECEC;
+  padding:4.00rem;
+
+}
+
+.card-text-wrap h2{
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  color: #141414;
+  padding-bottom:1rem;
+}
+
+.card-body{
+  padding:2.00rem; 
+}
+
+.vacay-card{
+  position:relative;
+  left:25%;
+  top:25%;
+  display:block;
+  z-index:2;
+  width:115%;
+  border-radius: 0px; 
+
+
+  
+}
+
+.vacay-card p{
+  padding-bottom:1rem;
+  line-height:26px;
+  color:#141414;
+  font-size:16px;
+  font-weight:400;
+}
+
+
+
+
+.background-none .multicolumn-list .multicolumn-card__info, .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info{
+   
+    position: absolute;
+    bottom: 1em;
+    width: 85%;
+    text-align:center;
+    background-color:#ffff;
+    left:4rem;
+    padding-bottom:3.5rem;
+  
+}
+
+.icon-wrap {
+  display:none;
+}
+
+.multicolumn-list h3{
+  font-weight:500;
+  letter-spacing:3px;
+  font-size:28px;
+}
+
+.multicolumn-card__info .link{
+  font-weight:700;
+  font-size:14px;
+  letter-spacing:2px;
+  border-bottom:1px solid #141414;
+  
+}
+
+.multicolumn-card__info .rte{
+  font-weight:400;
+  font-size:16px;
+  
+}
+
+/* Logo /Icon List */ 
+.logo-list p{
+  width:70%;
+  margin: 0 auto;
+}
+
+/* Mobile and Tablet Styles */ 
+@media only screen and (max-width:1024px) {
+   .logo-list {
+    flex-direction:column !important;
+  }
+
+  .logo-list p{
+    width:35%;
+  }
+  .logo-list img{
+    margin-top:2.00rem;
+  }
+  .icon-wrapper{
+    display:none !important;
+  }
+
+  .background-none .multicolumn-list .multicolumn-card__info, .background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info{
+   
+    position: unset;
+    bottom: 1em;
+    width: 100%;
+    text-align:center;
+    background-color:#ffff;
+    left:0rem;
+    padding-bottom:3.5rem;
+  
+   }
+  /* image banner mobile */ 
+  .banner__media img{
+    display:none !important;
+  }
+
+  .banner__media{
+    background-image:url("https://cdn.shopify.com/s/files/1/0734/8990/7993/files/50_off_hero_slider.jpg?v=1679327895");
+    background-repeat: no-repeat;
+    background-size:100%;
+    
+  }
+   .banner__box{
+     border: 1px solid #D8D8D8;
+     width: 97% !important;
+     top: -6rem;
+    
+    }
+
+  .banner__content{
+    height:200px;
+  }
+
+  .banner__box .banner__text{
+    font-size:14px; 
+    text-align:center;
+    font-weight:500;
+  }
+
+  .banner__box>*:first-child{
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+    color: #141414;
+  }
+
+  .banner__heading{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.71429px;
+
+    color: #141414;
+  }
+
+
+
+  .banner--content-align-mobile-center .banner__buttons--multiple>*{
+    flex-grow:0 !important;
+    min-width:14rem !important;
+  }
+
+  /* Vacay Card Mobile */
+  .vacay-card{
+  position:unset;
+  left:0%;
+  top:0%;
+  display:flex;
+  flex-direction:column;
+  z-index:unset;
+  width:100%; 
+  }
+
+  .vacay-row{
+    flex-direction:column;
+  }
+}
+
+/* Special Tablet */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+  .banner__content{
+    height:auto;
+    justify-content:center !important;
+  }
+
+
+}
+
+
+
